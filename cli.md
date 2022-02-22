@@ -14,3 +14,10 @@ rails server -p 3001
 ```bash
 rails generate scaffold Entry meal_type:string calories:integer proteins:integer carbohydrates:integer fats:integer
 ```
+
+* fix a pending migration error (the fix was suggested on the web interface)
+```bash
+bin/rails db:migrate RAILS_ENV=development
+```
+
+
