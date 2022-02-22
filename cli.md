@@ -20,4 +20,8 @@ rails generate scaffold Entry meal_type:string calories:integer proteins:integer
 bin/rails db:migrate RAILS_ENV=development
 ```
 
+* to see all the routes go to `http://localhost:3001/rails/info/routes` or from the cli
+```bash
+rails routes
+```
 
