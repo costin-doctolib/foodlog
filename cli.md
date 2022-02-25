@@ -10,6 +10,8 @@ rails new foodlog
 rails server -p 3001
 ```
 
+* https://justincypret.com/blog/killing-the-rails-server
+
 * add a [scaffold](https://www.rubyguides.com/2020/03/rails-scaffolding)
 ```bash
 rails generate scaffold Entry meal_type:string calories:integer proteins:integer carbohydrates:integer fats:integer

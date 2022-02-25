@@ -1,4 +1,7 @@
 <p style="color: green"><%= notice %></p>
+<% content_for :title do %>
+  FoodLog &ndash; <%= DateTime.now %>
+<% end %>
 
 <h1>Entries</h1>
 
